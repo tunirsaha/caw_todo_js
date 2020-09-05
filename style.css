@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #00A3C0;
+}
+.input-holder{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-data .item {
+	padding: 10px;
+	text-align: center;
+    border: 3px solid rgb(0,97,112);
+    border-radius: 4px;
+    width: 56%;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(0,187,206);
+}
+#input-data .item:hover{
+	background-color: rgb(70,209,226);
+}
+#input-data .item .fa-close{
+	float: right;
+}
+.clearfix{
+	clear: both;
+}
+button{
+	padding: 10px 18px;
+    background-color: #006170;
+    border: none;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+button i{
+	color: #00A3C0;
+	font-size: 19px !important;
+}
+.white{
+	color: white;
+}
+.yellow{
+	color: rgb(254,196,133);
+}
+.green{
+	color: rgb(0,205,175);
+}
+.blue{
+	color: rgb(0,97,112);
+}
+.input-box{
+    width: 53%;
+    position: relative;
+}
+.input-box input{
+	padding: 10px;
+    border-radius: 4px;
+    width: 93%;
+}
+.input-box span{
+	display: inline-block;
+    background: black;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    right: 18px;
+}

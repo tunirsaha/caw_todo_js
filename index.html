@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO DO LIST</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<h1 class="white">WORK TO-DOS</h1>
+	<h3 class="yellow">Enter text into the input field to add items to your list.</h3>
+	<h3 class="green">Click the item to mark it as complete.</h3>
+	<h3 class="blue">Click the "X" to remove the item from your list.</h3>
+	<div class="input-holder">
+		<div class="input-box">
+			<input type="text" placeholder="New Item..." name="list" id="input">
+			<span><i class="fa fa-ellipsis-h"></i></span>
+		</div>
+		<button type="button" onclick="add()">
+			<i class="fa fa-pencil"></i>
+		</button>
+	</div>
+	<div id="input-data"></div>
+</body>
+</html>
